@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Medical College Appliation </title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link href="apply.css" rel="stylesheet">
+</head>
+<body>
+    <form> 
+       <h1 style="color:darkslategray; text-align: center; ">Application Form</h1>
+      <table cellspacing="5" cellpadding="20" align="center">
+         <tr >
+            <td><label for="cars">Program</label></td>
+            <td></td>
+            <td>
+               <select id="cars" style="width: 190px;">
+                  <option>&nbsp;</option>
+                  <option >MBBS</option>
+                  <option >BDS</option>
+                  <option>Ayurveda/Homeopathy</option>
+                  <option>Optometry</option>
+                  <option>Dialysis Therapy Technology</option>
+                  <option>Health Information Management</option>
+                  <option>Operation Theatre Technology</option>
+                  <option>Physiotherapy</option>
+                  <option>Radiotherapy Technology</option>
+                  <option>Nutrition & Diabetics</option>
+
+                </select>
+                
+            </td>
+          </tr>
+          <tr >
+            <td>First Name </td>
+            <td></td>
+            <td>
+               <input type="text" id="fname">
+            </td>
+          </tr>
+          <tr >
+            <td>Last Name </td>
+            <td></td>
+            <td>
+               <input type="text" id="lname">
+            </td>
+          </tr>
+          
+          <tr >
+            <td>Date of Birth </td>
+            <td></td>
+            <td>
+               <input type="date" id="dob" placeholder="dd/mm/yy">
+            </td>
+          </tr>
+          <tr >
+            <td>Country </td>
+            <td></td>
+            <td>
+               <input type="text" id="con">
+            </td>
+          </tr>
+          <tr >
+            <td>Citizenship </td>
+            <td></td>
+            <td>
+               <input type="text" id="cityship">
+            </td>
+          </tr>
+          <tr >
+            <td>Email </td>
+            <td></td>
+            <td>
+               <input type="email" id="email">
+            </td>
+          </tr>
+          <tr >
+            <td>Phone </td>
+            <td></td>
+            <td>
+               <input type="number" id="Phone">
+            </td>
+          </tr>
+          <tr >
+            <td>Address </td>
+            <td></td>
+            <td>
+               <textarea  id="addr" style="width: 190px;"></textarea>
+            </td>
+          </tr>
+        </table>          
+          <h1 style="color:darkslategray; text-align: center;">Current Education</h1>
+          <table cellspacing="5" cellpadding="15" border-spacing="0" align="center">
+          <tr >
+            <td><label for="edu" >Graduated</label></td>
+            <td></td>
+            <td>
+              <select id="edu" style="width: 176px;">
+                 <option>&nbsp;</option>
+                 <option>High School</option>
+                 <option>College</option>
+                 <option>University</option>
+              </select>
+            </td>
+          </tr>
+          <tr >
+           <td>Name Of the Institution </td>
+           <td></td>
+           <td>
+              <input type="text" id="iname">
+           </td>
+         </tr>
+         
+          
+          
+    </table>
+      </div>
+      <div style="text-align: center;">
+        <input type="checkbox" id="conf" >
+               <label for="conf">I declare all the given information are true.</label>
+               <br><br>
+               <button class="btn btn-outline-info" formaction="final.html">Submit</button>
+            </div>
+    </form>
+   </div>   
+    
+</body>
+
+</html>
